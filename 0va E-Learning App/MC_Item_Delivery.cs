@@ -453,6 +453,16 @@ namespace _0va_E_Learning_App
             else
             {
                 MessageBox.Show("Sorry you didn't pass the test. " + " Your score is " + this_score + "out of " + max_index);
+                MessageBox.Show( "ANSWERS: Question 1 = " + my_bank.ib[0].correct_answer + "    " +
+                    "Question 2 = " + my_bank.ib[1].correct_answer + "    " + 
+                    "Question 3 = " + my_bank.ib[2].correct_answer + "    " + 
+                    "Question 4 = " + my_bank.ib[3].correct_answer + "    " +
+                    "Question 5 = " + my_bank.ib[4].correct_answer + "    " +
+                    "Question 6 = " + my_bank.ib[5].correct_answer + "    " +
+                    "Question 7 = " + my_bank.ib[6].correct_answer + "    " +
+                    "Question 8 = " + my_bank.ib[7].correct_answer + "    " +
+                    "Question 9 = " + my_bank.ib[8].correct_answer + "    " +
+                    "Question 10 = " + my_bank.ib[9].correct_answer );
             }
         }
 
